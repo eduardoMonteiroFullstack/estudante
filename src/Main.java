@@ -14,7 +14,7 @@ public class Main {
         int x;
         System.out.println("entrar com a quantidade de alunos(as):");
         x = sc.nextInt();
-        sc.nextLine();
+        sc.nextLine();     // esse nextLine é usado para limpar o sc, o nextInt acaba consumindo apenas o numero inteiro e qnd apertamos o enter ele consome o nome do aluno
         List<aluno> list = new ArrayList<>();
 
         for(int i=0; i<x; i++){
